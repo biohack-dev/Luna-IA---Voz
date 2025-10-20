@@ -1,7 +1,6 @@
-# Luna-IA - Voz
-Luna I.A - Assistente Pessoal por Voz para Linux
 
-https://img.shields.io/badge/Version-1.0-blue.svg https://img.shields.io/badge/Python-3.6+-green.svg https://img.shields.io/badge/Platform-Linux-orange.svg
+#Luna IA - Voz
+Luna I.A - Assistente Pessoal por Voz para Linux
 
 Um assistente pessoal inteligente por voz desenvolvido para Linux, combinando reconhecimento de fala, processamento de linguagem natural e automação de tarefas.
 
