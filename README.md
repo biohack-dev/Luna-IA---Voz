@@ -1,5 +1,5 @@
 
-#Luna IA - Voz
+# Luna IA - Voz
 Luna I.A - Assistente Pessoal por Voz para Linux
 
 Um assistente pessoal inteligente por voz desenvolvido para Linux, combinando reconhecimento de fala, processamento de linguagem natural e automação de tarefas.
