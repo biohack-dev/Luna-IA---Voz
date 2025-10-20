@@ -1,0 +1,59 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+	    <pattern>HORA</pattern>
+	    <template>
+		A hora é <system>LC_TIME=en_US.UTF-8 date +"%I:%M %p"</system>
+	    </template>
+	</category>
+
+	<category>
+	    <pattern>HD</pattern>
+	    <template>
+		<system>/etc/luna/disco.sh</system>
+	    </template>
+	</category>
+
+	<category>
+	    <pattern>DÓLAR</pattern>
+	    <template>
+		<system>/etc/luna/dolar.sh</system>
+	    </template>
+	</category>
+
+	<category>
+	    <pattern>GASOLINA</pattern>
+	    <template>
+		<system>/etc/luna/gasolina.sh</system>
+	    </template>
+	</category>
+	
+	<category>
+	    <pattern>CLIMA</pattern>
+	    <template>
+		<system>/etc/luna/clima.sh</system>
+	    </template>
+	</category>
+
+	<category>
+	    <pattern>IP</pattern>
+	    <template>
+		<system>/etc/luna/myip.sh</system>
+	    </template>
+	</category>
+
+<!--
+	<category>
+	<pattern>*</pattern>
+	<template>
+	<random>
+	   <li>Desculpe, eu não entendi muito bem</li>
+	   <li>Eu não entendo isso ainda. Talvez você possa me ensinar.</li>
+	   <li>Eu não sei como responder isso. Talvez eu possa te interessar em outra coisa.</li>
+	</random>
+	</template>
+	</category>    
+-->
+  
+</aiml>
