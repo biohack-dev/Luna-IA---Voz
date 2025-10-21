@@ -22,10 +22,10 @@ Dependências do Sistema
 sudo apt update && sudo apt upgrade -y
 
 # Instalar dependências básicas
-sudo apt install -y python3 python3-pip espeak git curl wget jq
+sudo apt install bc jq curl git nmap wget python3 python3-pip espeak libxml2 libxslt termux-api -y
 
 # Instalar dependências Python
-pip3 install speechrecognition requests beautifulsoup4 aiml playsound
+pip3 install speechrecognition requests beautifulsoup4 lxml python-aiml playsound
 ```
 
 Dependências Específicas
